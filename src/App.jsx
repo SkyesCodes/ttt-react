@@ -13,7 +13,7 @@ export default function App() {
       </header>
       <Message playerTurn={playerTurn}/>
       <Board playerTurn={playerTurn} setPlayerTurn={setPlayerTurn}/>
-      <button>Play again</button>
+      <button className='play-button'>Play again</button>
     </div>
   );
 }
