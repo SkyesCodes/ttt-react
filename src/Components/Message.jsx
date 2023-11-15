@@ -1,4 +1,4 @@
-export default function Message({ playerTurn }) {
+export default function Message({ playerTurn, gameOver }) {
     return (
         <div className='message'>
             <h3>`It's ${playerTurn}'s turn'`</h3>
